@@ -8,13 +8,14 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          jan bananc/App</code> and save to reload.
+          jan ban<code>src/App</code> and save to reload.
         </p>
         <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
-          rel="no
+          rel="noopener noreferrer"
+        >
           Learn React
         </a>
       </header>
