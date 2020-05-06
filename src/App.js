@@ -15,12 +15,12 @@ const pokemonsList = () => {
 
       {pokemons.map ((pokemon)=>
         <div key={ '${pokemon.id}- ${pokemon.name}'} >
-        
-        
-        
-        
+        <p>{pokemon.id}</p>
+        <p>{pokemon.name}</p>
         
         </div> )}
     </div>
   )
 }
+
+export default pokemonsList;
