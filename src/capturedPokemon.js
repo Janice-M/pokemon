@@ -1,7 +1,7 @@
 import React, { useState} from 'react';
 
 
-const CapturedPokemons = () => {
+const   Pokedex = () => {
     const [pokemons] = useState([]);
 
     return (
@@ -18,4 +18,4 @@ const CapturedPokemons = () => {
     )
 }
 
-export default CapturedPokemons;
+export default Pokedex;

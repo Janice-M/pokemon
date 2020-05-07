@@ -2,12 +2,12 @@ import React from 'react';
 import './App.css';
 
 import PokemonList from './pokemonsList';
-import CapturedPokemons from './capturedPokemon';
+import Pokedex from './capturedPokemon';
 
 const App = () =>(
     <div className = "App">
         <PokemonList  />
-        <CapturedPokemons   />
+        <Pokedex   />
     </div>
 );
 
