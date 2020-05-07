@@ -7,6 +7,6 @@ import pokedex from './capturedPokemon';
 const App = () =>(
     <div className = "App">
         <pokemonList  />
-        <po
+        <pokedex    />
     </div>
 );
