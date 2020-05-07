@@ -10,3 +10,5 @@ const App = () =>(
         <pokedex    />
     </div>
 );
+
+export default App;
