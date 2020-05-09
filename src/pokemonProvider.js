@@ -18,4 +18,12 @@ export const PokemonProvider = (props) => {
         setCapturedPokemons
     };
 
-}
+    return (
+        <PokemonContext.Provider value={providerValue}>
+            {props.children}
+        </PokemonContext.Provider>
+
+
+    )
+
+};
