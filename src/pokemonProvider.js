@@ -10,5 +10,12 @@ export const PokemonProvider = (props) => {
 
     ]);
     const [capturedPokemons , setCapturedPokemons] = useState([]);
-    
+
+    const providerValue = {
+        pokemons, 
+        setPokemons,
+        capturedPokemons,
+        setCapturedPokemons
+    };
+
 }
