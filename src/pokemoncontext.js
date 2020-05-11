@@ -2,4 +2,22 @@ import {useContext} from 'react';
 import {PokemonContext} from './pokemoncontext';
 
 
-useContext(PokemonContext); //return the context from our provider value
+
+export const PokemonList = () =>{
+    const {
+        pokemons,
+        setPokemons,
+        capturedPokemons'
+        setCapturedPokemons
+
+    } = useContext(PokemonContext);
+}
+
+
+
+
+
+
+
+
+ //return the context from our provider value
