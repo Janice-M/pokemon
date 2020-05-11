@@ -11,6 +11,8 @@ export const PokemonList = () =>{
         setCapturedPokemons
 
     } = useContext(PokemonContext);
+
+    const removePokemonFro
 }
 
 
