@@ -7,7 +7,7 @@ export const PokemonList = () =>{
     const {
         pokemons,
         setPokemons,
-        capturedPokemons'
+        capturedPokemons,
         setCapturedPokemons
 
     } = useContext(PokemonContext);
