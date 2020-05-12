@@ -12,7 +12,8 @@ export const PokemonList = () =>{
 
     } = useContext(PokemonContext);
 
-    const removePokemonFro
+    const removePokemonFromList = (removedPokemon) =>
+        pokemons.filter (pokemon => pokemon !== removedPokemon)
 }
 
 
