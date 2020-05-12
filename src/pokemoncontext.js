@@ -17,10 +17,17 @@ export const PokemonList = () =>{
 
     
     const capture = (pokemon) => {
-        setCapturedPokemons([...capturedPokemons, pokemon])
-        setPokemons(removePokemonFromList(pokemon))
+        setCapturedPokemons([...capturedPokemons, pokemon]);
+        setPokemons(removePokemonFromList(pokemon));
 
-    }
+    };
+
+    return (
+        <div className = "pokemons-list">
+            <h2>Pokemons List</h2>
+            {pokemons.}
+        </div>
+    )
 };
 
 
