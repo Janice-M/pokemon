@@ -25,7 +25,10 @@ export const PokemonList = () =>{
     return (
         <div className = "pokemons-list">
             <h2>Pokemons List</h2>
-            {pokemons.}
+            {pokemons.map((pokemon)=>
+                <div > 
+                </div>
+                )}
         </div>
     )
 };
