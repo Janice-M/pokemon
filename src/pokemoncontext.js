@@ -14,7 +14,12 @@ export const PokemonList = () =>{
 
     const removePokemonFromList = (removedPokemon) =>
         pokemons.filter (pokemon => pokemon !== removedPokemon)
-}
+
+    
+    const capture = (pokemon) => {
+
+    }
+};
 
 
 
