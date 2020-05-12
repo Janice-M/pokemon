@@ -26,7 +26,7 @@ export const PokemonList = () =>{
         <div className = "pokemons-list">
             <h2>Pokemons List</h2>
             {pokemons.map((pokemon)=>
-                <div > 
+                <div key = {`${pokemon.id}-${pokemon.name}`}> 
                 </div>
                 )}
         </div>
