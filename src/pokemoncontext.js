@@ -17,6 +17,8 @@ export const PokemonList = () =>{
 
     
     const capture = (pokemon) => {
+        setCapturedPokemons([...capturedPokemons, pokemon])
+        setPokemons(removePokemonFromList(pokemon))
 
     }
 };
