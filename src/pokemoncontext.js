@@ -29,6 +29,7 @@ export const PokemonList = () =>{
                 <div key = {`${pokemon.id}-${pokemon.name}`}> 
                     <div>
                         <span> {pokemon.name}</span>
+                        <button onClick = {capture(pokemon)} ></button>
                     </div>
                 </div>
 
