@@ -24,6 +24,7 @@ const CapturedPokemons = () => {
             {capturedPokemons.map ((pokemon)=>
                 <div key = {`${pokemon.id }- ${pokemon.name}`}>
                 </div>
+                    <span>{pokemon.name}</span>
                 )}
 
         </div>
