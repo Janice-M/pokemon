@@ -8,4 +8,7 @@ const CapturedPokemons = () => {
         capturedPokemons,
         setCapturedPokemons
     } = useContext(PokemonContext);
+
+    const releasePokemon = (releasedPokemon) =>
+        capturedPokemons.filter((pokemon)=> pokemon !== releasedPokemon);
 }
