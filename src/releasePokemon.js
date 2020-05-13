@@ -19,7 +19,9 @@ const CapturedPokemons = () => {
     };
 
     return (
-        <div>
+        <div className = "captured-pokemons">
+            <h2>Captured Pokemons</h2>
+
         </div>
     );
 }
