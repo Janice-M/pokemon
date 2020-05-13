@@ -17,4 +17,9 @@ const CapturedPokemons = () => {
         setPokemons([...pokemons,pokemon])
 
     };
+
+    return (
+        <div>
+        </div>
+    );
 }
