@@ -14,6 +14,7 @@ const CapturedPokemons = () => {
 
     const release = (pokemon) = () => {
         setCapturedPokemons(releasePokemon(pokemon));
+        setPokemons([...pokemons,pokemon])
 
     }
 }
