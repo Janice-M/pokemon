@@ -29,6 +29,7 @@ const CapturedPokemons = () => {
                 )}
                     </div>
             </div>        
-        </div>
+
+            </div>
     );
-}
+};
