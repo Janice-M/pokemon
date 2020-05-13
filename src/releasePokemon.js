@@ -23,11 +23,12 @@ const CapturedPokemons = () => {
             <h2>Captured Pokemons</h2>
             {capturedPokemons.map ((pokemon)=>
                 <div key = {`${pokemon.id }- ${pokemon.name}`}>
-                </div>
+                    <div>
                     <span>{pokemon.name}</span>
                     <button onClick = {release(pokemon)}>- </button>
                 )}
-
+                    </div>
+            </div>        
         </div>
     );
 }
