@@ -25,6 +25,7 @@ const CapturedPokemons = () => {
                 <div key = {`${pokemon.id }- ${pokemon.name}`}>
                 </div>
                     <span>{pokemon.name}</span>
+                    <button onClick = {release(pokemon)}>- </button>
                 )}
 
         </div>
