@@ -28,8 +28,10 @@ const CapturedPokemons = () => {
                     <button onClick = {release(pokemon)}>- </button>
                 )}
                     </div>
-            </div>        
+            </div>)}        
 
             </div>
     );
 };
+
+export default CapturedPokemons;
