@@ -21,6 +21,10 @@ const CapturedPokemons = () => {
     return (
         <div className = "captured-pokemons">
             <h2>Captured Pokemons</h2>
+            {capturedPokemons.map ((pokemon)=>
+                <div key = {`${pokemon.id }- ${pokemon.name}`}>
+                </div>
+                )}
 
         </div>
     );
