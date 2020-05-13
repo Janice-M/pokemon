@@ -11,4 +11,9 @@ const CapturedPokemons = () => {
 
     const releasePokemon = (releasedPokemon) =>
         capturedPokemons.filter((pokemon)=> pokemon !== releasedPokemon);
+
+    const release = (pokemon) = () => {
+        setCapturedPokemons(releasePokemon(pokemon));
+
+    }
 }
